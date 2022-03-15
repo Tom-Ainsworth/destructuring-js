@@ -1,0 +1,33 @@
+When learning about the destructuring assignment you were taught it is used to unpack values from arrays and objects into variables.
+In this challenge, you will be doing this but with a slight twist from what was shown in the lesson video, as you will be using destructuring on an array returned from a function call, but it is in fact done the exact same way so don't think it is going to be any more difficult.
+ 
+In particular, you will:
+Work with destructuring.
+Arrow functions
+Log values to the terminal
+Result
+Your result should look like the image below:
+
+
+
+Challenge Submission
+Whenever you complete a challenge step, view the result by clicking on the run button above the code editor and viewing the output in the result window.
+Test your answer by clicking on the " run tests " button that is next to the run button.
+A feedback panel will pop up to show you your result.
+If your code passes its associated test (will be colored green) move on to the next challenge step.
+If code fails its associated test (colored red), click on the failed tests to reveal a hint as to what might have gone wrong.
+Fix the error before moving on to the next challenge step
+Once your code passes all the tests (will be colored green) go ahead and submit your answer by first clicking the submit button on the top right of the CodeIt window then clicking submit again on the resulting popup window.
+Move on to the next unit in the course.
+Steps
+You will create three variables using destructuring on an array returned from a function. The first and second variables will be the first two items in the array and the final one will be the remainder of items in the array. You will also create an arrow function, Which should return an array containing all the subjects for whichever students name is supplied when the function is called.
+ 
+1. Declare a variable named: makeList using the keyword const
+2. The variable makeList should be assigned an arrow function
+3. The arrow function should take two parameters named: arr, student
+4. The arrow function should use a return statement
+5. The function should return an array of the subjects for the student whose name is passed into the function when called.
+6. Using destructuring on the return value from calling the function and passing in the students array,  and the string John, create 3 variables named: first, second, rest using the keyword let
+7. log out the values  first, second, and rest to view their values
+
+Note the function should return the correct subjects when the names Emily, Adam, and Fran are used, and this will be tested.
